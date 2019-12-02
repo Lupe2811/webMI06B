@@ -1,0 +1,48 @@
+
+@keyframes fondo {
+	0%{background-image: url("../ima/1.jpg");}
+	15%{background-color: #00FFFF; opacity: 0.4;}
+	30%{background-color: #04B4AE;opacity: 0.4;}
+	45%{background-color: #0101DF;opacity: 0.4;}
+	55%{background-color: #58FAF4;opacity: 0.4;}
+	65%{background-color: #58D3F7;opacity: 0.4;}
+	75%{background-color: #0101DF;opacity: 0.4;}
+	100%{background-color: #FA58F4;opacity: 0.4;}
+
+}
+body{ 
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+    font-family: "Constantia", serif;
+ }
+.contairner {
+	background-color: rgba(0,0,0,0.10); 
+	margin-top: 10%;
+	border-radius: 10px;
+	width: 600px;
+	height: 300px;
+	color: red;
+}
+.contairner:hover {
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+}
+.input-field {
+	margin-top: 5%;
+	margin-left: 3%
+	margin-right:10%;
+}
+.btn{
+	border-radius: 15%;
+}
+form{ 
+	color:black;
+}
+body{
+	background-size: cover;
+}

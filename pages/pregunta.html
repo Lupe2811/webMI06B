@@ -1,0 +1,67 @@
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Preguntas </title>
+	<link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
+		
+</head>
+<body> 
+	<style type="text/css">
+	html{
+		background-color: #D0FA58;
+		font: oblique bold 150% cursive;
+		}
+	
+
+			}</style>
+	<div class="container center-align">
+	<h1> Preguntas </h1>
+	 <input  id="Iniciar" type="submit"  value="Iniciar" class="btn">
+	 <div class="row" hidden id="p1">
+		<div class="col s12 input-field">
+		  <select>
+				<option value="" disabled selected></option>
+				<option value="0">Femenino</option>
+				<option value="1">Masculino</option>
+			</select>
+			<label>Sexo</label>
+	    </div>
+	 <div class="col s12 input-field">
+		<select>
+		    <option value=""></option>
+			<option value="0">Soltero</option>
+			<option value="1">Casado</option>
+			<option value="2">Divorciado</option>
+			<option value="3">Mantenido</option>
+			<option value="4">Complicado</option>
+		  </select>
+		  <label>Estado</label>
+	   </div>
+	 </div>
+	 <div class="row" hidden id="p2">
+		<div class="col s12 input-fiel"	>
+			<input type="number">
+			<label>Edad</label>
+		</div>
+		<div class="col s12 input-fiel">
+			<select>
+				<option value=""></option>
+				<option value="0">soltero</option>
+				<option value="1">casado</option>
+				<option value="2">divorciado</option>
+			</select>
+			<label>Estado</label>
+		</div>
+	 </div>
+	 <input id="Siguiente" type="submit" class="btn" value="Siguiente" />
+</div>
+
+	 <script src="../js/jquery.js"></script>
+	 <script src="../js/sweetalert2.min.js"></script>
+	 <script src="../js/pregun.js"></script>
+	 <script src="../js/materialize.min.js"></script>
+
+  
+	
+ </body>
+</html>
